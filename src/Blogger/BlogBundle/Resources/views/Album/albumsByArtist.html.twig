@@ -1,0 +1,37 @@
+{% extends 'BloggerBlogBundle::layout.html.twig' %}
+{% block title %}Artists{% endblock%}
+
+{% block body %}
+    <div class="row">
+        {% for albums in albums %}
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="card" style="margin-top: 30px; margin-bottom: 20px; background-color: whitesmoke" >
+                    <div class="thumbnail" style="padding-top: 40px; padding-left: 25px; padding-right: 25px; padding-bottom: 10px">
+
+                        {#                        <img class="card-img-top round" width="260px" height="370px" src="{{ asset('uploads/images/' ~ post.image()) }}" alt="">#}
+                        <div class="card-body">
+
+                            <h4 class="card-title">
+                                {{ albums.albumArtist }}
+
+                            </h4>
+
+                        </div>
+                        <div class="card-footer">
+                            <a href="{{ path('blogger_viewalbum', {id : posts.id}) }}" class="btn btn-primary">View</a>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+        {% endfor %}
+
+    </div>
+
+
+{% endblock %}

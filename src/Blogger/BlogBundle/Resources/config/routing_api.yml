@@ -1,0 +1,7 @@
+api_blog:
+    type: rest
+    resource: Blogger\BlogBundle\Controller\BlogAPIController
+    name_prefix: api_blog_
+    prefix: /
+
+

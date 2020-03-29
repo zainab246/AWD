@@ -1,0 +1,59 @@
+{% extends 'BloggerBlogBundle::layout.html.twig' %}
+{% block body %}
+    <section class="section section-lg bg-default">
+
+        <div class="container container-bigger product-single">
+            <div class="row row-fix justify-content-sm-center justify-content-lg-between row-30 align-items-lg-center">
+                <div class="col-lg-5 col-xl-6 col-xxl-5">
+                    <img width="400px" height="600px" style=" display: block; margin-top: 20px; margin-bottom: 20px; margin-left: auto; margin-right: auto;" class="img-thumbnail rounded" src="{{ asset('uploads/images/' ~ posts.image)}}" alt="">
+                </div>
+                <div class="col-lg-7 col-xl-6 col-xxl-6 text-center text-lg-left">
+
+                    <h3 style="font-weight: 400;font-size: 28px;"><b> {{ posts.title }}</b></h3>
+                    <div class="divider divider-default"></div>
+                    <ul class="list-group" style=" margin-top: 35px; margin-bottom: 20px; font-weight: 400;font-size: 19px;">
+                        <li class="list-group-item">Album Artist: {{ posts.albumArtist }}</li>
+                        <li class="list-group-item">Track list:  {{ posts.trackList }}</li>
+                    </ul>
+
+                    <div style="padding-bottom: 20px;">
+                        {% if is_granted('ROLE_USER') %}
+                            <a class="btn btn-info" href="{{ path('createreview', {id : posts.id}) }}">Leave a review</a>
+
+                        {% else %}
+                            <a class="btn btn-info" href="{{ path('fos_user_security_login') }}">Log in to review</a>
+                        {% endif %}
+
+                        {% if(is_granted('edit', posts)) %}
+                            <a class="btn btn-secondary" href="{{ path('editalbum',{'id':posts.id}) }}">edit details</a>
+                        {% endif %}
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    {% for reviews in reviews %}
+
+        <div class="card round" style="margin-top: 20px; margin-bottom: 15px;">
+            <div class="card-body round">
+                <h5 class="card-title">{{ reviews.title }}</h5>
+                <h6 class="card-subtitle mb-2 text-muted">by: {{ reviews.reviewer }}</h6>
+                <article><p class="card-text">{{ reviews.article|nl2br }}</p></article>
+
+                <h6 class="card-subtitle mb-2 text-muted" style="margin-top: 10px;">posted at:{{ reviews.timestamp|date('H:i d/m/y') }}</h6>
+
+                {% if (is_granted('edit', reviews)) %}
+                    <a href="{{ path('editreview', {'id': reviews.id}) }}" class="card-link">edit review</a>
+                {% endif %}
+                {% if (is_granted('delete', reviews)) %}
+                    <a href="{{ path('deletereview',{id: reviews.id}) }}" class="card-link">delete review</a>
+                {% endif %}
+
+            </div>
+
+        </div>
+    {% endfor%}
+{% endblock %}

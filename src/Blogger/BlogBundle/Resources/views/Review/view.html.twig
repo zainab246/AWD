@@ -1,0 +1,14 @@
+{% extends "::base.html.twig" %}
+
+{% block title %}{{reviews.title}}{% endblock %}
+
+{% block body %}
+    <h1>{{ reviews.title }}</h1>
+
+    <p>{{ reviews.article|nl2br }}</p>
+    <p><small>Created by {{ reviews.reviewer }} at {{ reviews.timestamp|date('H:i d/m/y') }}</small>
+
+        <a href="{{ path('editreview', {'id': reviews.id}) }}"> edit </a>
+
+    </p>
+{% endblock %}

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>{% block title %}Music Reviewer!{% endblock %}</title>
+    {% block stylesheets %}
+        <link rel="stylesheet" href="{{ asset('vendor/bootstrap/css/bootstrap.min.css') }}">
+        <link rel="stylesheet" href="{{ asset('../app/Resources/public/css/bootstrap/css/bootstrap.min.css') }}">
+        <link rel="stylesheet" href="{{ asset('css/styles.css') }}">
+        <link rel="stylesheet" href="{{ asset('../../Resources/public/css/screen.css') }}">
+        <link rel="stylesheet" href="{{ asset('vendor/fontawesome/css/font-awesome.min.css') }}">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+              integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+       {% stylesheets'../app/Resources/public/css/screen.css' %}<link href="{{ asset_url }}" type="text/css" rel="stylesheet"/>{% endstylesheets %}
+    {% endblock %}
+    <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
+</head>
+<body>
+
+<header class="header">
+    <h1 class="logo">Music Reviewer</h1>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="{{ path('blogger_index') }}">Home</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ path('blogger_about') }}">About</a>
+                </li>
+                <li class="nav-item">
+{#                    <a class="nav-link" href="{{ path('blogger_artists') }}">Artists</a>#}
+                </li>
+                <li class="nav-item">
+                    {% if is_granted('ROLE_USER') %}
+                    <a class="nav-link" href="{{ path('createalbum') }}">Add Album</a>
+                    {% else %}
+                    <a class="nav-link" href="{{ path('fos_user_security_login') }}">Add Album</a>
+                    {% endif %}
+                </li>
+            </ul>
+
+
+
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+
+                    {% if is_granted('ROLE_USER') %}
+                        <a href="{{ path('fos_user_security_logout') }}">Logout</a>
+                    {% else %}
+                       <a href="{{ path('fos_user_security_login') }}">Login</a>
+                    {% endif %}
+
+            </form>
+        </div>
+    </nav>
+
+    {#<div class="search-bar">#}
+        {#<form method="GET" action="" class="js-sea-search sea-search">#}
+            {#<input type="search" name="q" placeholder="Search Sea Creatures" autocomplete="off" class="search-input">#}
+        {#</form>#}
+    {#</div>#}
+    {#<images class="logo-icon" src="{{ asset('images/aquanote-logo.png') }}">#}
+    {#<h1 class="logo">Album Review</h1>#}
+
+
+</header>
+<div class="main-content">
+    {% for msg in app.session.flashBag.get('success') %}
+        <div class="alert alert-success">
+            {{ msg }}
+
+        </div>
+
+
+    {% endfor %}
+
+
+
+    {% block body %}
+
+    {% endblock %}
+</div>
+
+<footer class="py-5 bg-light">
+    <div class="container">
+        <p class="m-0 text-center text-black">Copyright &copy; Music Reviewer 2020 </p>
+    </div>
+    <!-- /.container -->
+</footer>
+
+{% block javascripts %}
+    <script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="{{ asset('js/main.js') }}"></script>
+{% endblock %}
+</body>
+</html>

@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0c5c9f97-9fb6-4df4-91e7-dc6e825199d9" name="Default" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution>
+      <executable path="composer" />
+    </execution>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="bnb289@poseidon.salford.ac.uk" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="bnb289@poseidon.salford.ac.uk" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="bnb289@poseidon.salford.ac.uk" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="bnb289: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="bnb289@poseidon.salford.ac.uk" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="bnb289: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="albums: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="bnb289@poseidon.salford.ac.uk" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="bnb289: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="reviews: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="symblog" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpDebugGeneral" listening_started="true" />
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.1">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-bundle" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/common" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/collections" />
+      <path value="$PROJECT_DIR$/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/annotations" />
+      <path value="$PROJECT_DIR$/vendor/psr/link" />
+      <path value="$PROJECT_DIR$/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-apcu" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-icu" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php56" />
+      <path value="$PROJECT_DIR$/vendor/incenteev/composer-parameter-handler" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-util" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/monolog-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/symfony" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php70" />
+      <path value="$PROJECT_DIR$/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/vendor/jdorn/sql-formatter" />
+      <path value="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/orm" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/vendor/symfony/phpunit-bridge" />
+      <path value="$PROJECT_DIR$/vendor/sensiolabs/security-checker" />
+      <path value="$PROJECT_DIR$/vendor/fig/link-util" />
+      <path value="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-cache-bundle" />
+      <path value="$PROJECT_DIR$/vendor/sensio/distribution-bundle" />
+      <path value="$PROJECT_DIR$/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/vendor/sensio/generator-bundle" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/event-manager" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/reflection" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/persistence" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php73" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-client-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/mime" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-client" />
+      <path value="$PROJECT_DIR$/vendor/symfony/assetic-bundle" />
+      <path value="$PROJECT_DIR$/vendor/kriswallsmith/assetic" />
+      <path value="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle" />
+      <path value="$PROJECT_DIR$/vendor/webimpress/safe-writer" />
+      <path value="$PROJECT_DIR$/vendor/ocramius/proxy-manager" />
+      <path value="$PROJECT_DIR$/vendor/laminas/laminas-eventmanager" />
+      <path value="$PROJECT_DIR$/vendor/laminas/laminas-zendframework-bridge" />
+      <path value="$PROJECT_DIR$/vendor/ocramius/package-versions" />
+      <path value="$PROJECT_DIR$/vendor/laminas/laminas-code" />
+      <path value="$PROJECT_DIR$/vendor/jms/metadata" />
+      <path value="$PROJECT_DIR$/vendor/hoa/visitor" />
+      <path value="$PROJECT_DIR$/vendor/jms/serializer" />
+      <path value="$PROJECT_DIR$/vendor/jms/serializer-bundle" />
+      <path value="$PROJECT_DIR$/vendor/hoa/math" />
+      <path value="$PROJECT_DIR$/vendor/hoa/stream" />
+      <path value="$PROJECT_DIR$/vendor/hoa/event" />
+      <path value="$PROJECT_DIR$/vendor/hoa/compiler" />
+      <path value="$PROJECT_DIR$/vendor/hoa/regex" />
+      <path value="$PROJECT_DIR$/vendor/hoa/iterator" />
+      <path value="$PROJECT_DIR$/vendor/hoa/file" />
+      <path value="$PROJECT_DIR$/vendor/hoa/protocol" />
+      <path value="$PROJECT_DIR$/vendor/hoa/ustring" />
+      <path value="$PROJECT_DIR$/vendor/hoa/exception" />
+      <path value="$PROJECT_DIR$/vendor/hoa/consistency" />
+      <path value="$PROJECT_DIR$/vendor/hoa/zformat" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/migrations" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-migrations-bundle" />
+      <path value="$PROJECT_DIR$/vendor/willdurand/jsonp-callback-validator" />
+      <path value="$PROJECT_DIR$/vendor/willdurand/negotiation" />
+      <path value="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1VkrB0v7YQ35jeG5bTP0bkolmIZ" />
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Code style issuesJavaScript</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>PHP</id>
+          </State>
+          <State>
+            <id>Portability issues</id>
+          </State>
+          <State>
+            <id>Probable bugsJavaScript</id>
+          </State>
+          <State>
+            <id>UndefinedPHP</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>CoffeeScript</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="lo&#9;FILE&#9;file:///home/bnb289/Documents/musicReviewer(recent)/musicReviewer(recent)/symblog/src/Blogger/BlogBundle/Security/LoginFormAuthenticator.php&#10;reg&#9;null&#9;null&#10;login.htm&#9;FILE&#9;file:///home/bnb289/Documents/musicReviewer(recent)/musicReviewer(recent)/symblog/vendor/friendsofsymfony/user-bundle/Resources/views/Security/login.html.twig&#10;login&#9;null&#9;null&#10;sc&#9;FILE&#9;file:///home/sgb638/AWD/symblog/app/Resources/public/css/screen.css&#10;E&#9;FILE&#9;file:///home/sgb638/AWD/symblog/vendor/doctrine/orm/lib/Doctrine/ORM/EntityRepository.php&#10;EntityRE&#9;null&#9;null&#10;about&#9;null&#9;null&#10;welc&#9;FILE&#9;file:///home/sgb638/AWD/symblog/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Resources/welcome.html.php&#10;login.h&#9;FILE&#9;file:///home/sgb638/AWD/symblog/vendor/friendsofsymfony/user-bundle/Resources/views/Security/login.html.twig&#10;layou&#9;FILE&#9;file:///home/sgb638/AWD/symblog/app/Resources/FOSUserBundle/views/layout.html.twig&#10;re&#9;FILE&#9;file:///home/sgb638/AWD/symblog/vendor/friendsofsymfony/user-bundle/Resources/views/Registration/register.html.twig&#10;css&#9;FILE&#9;file:///home/sgb638/AWD/symblog/app/Resources/public/css/screen.css&#10;registerl&#9;null&#9;null&#10;registrationco&#9;null&#9;null&#10;user&#9;FILE&#9;file:///home/sgb638/AWD/symblog/src/Blogger/BlogBundle/Entity/User.php&#10;register&#9;FILE&#9;file:///home/sgb638/AWD/symblog/app/Resources/FOSUserBundle/views/Registration/register_content.html.twig&#10;baseRegis&#9;null&#9;null&#10;validators.en&#9;FILE&#9;file:///home/sgb638/AWD/symblog/vendor/friendsofsymfony/user-bundle/Resources/translations/validators.en.yml&#10;validators.e&#9;FILE&#9;file:///home/sgb638/AWD/symblog/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.en.xlf&#10;FOSUserbundle.e&#9;FILE&#9;file:///home/sgb638/AWD/symblog/vendor/friendsofsymfony/user-bundle/Resources/translations/FOSUserBundle.en.yml&#10;registe&#9;FILE&#9;file:///home/sgb638/AWD/symblog/vendor/friendsofsymfony/user-bundle/Resources/views/Registration/register.html.twig&#10;fos&#9;null&#9;null&#10;trans&#9;FILE&#9;file:///home/sgb638/AWD/symblog/var/cache/dev/translations&#10;securitycon&#9;null&#9;null&#10;composer&#9;FILE&#9;file:///home/sgb638/AWD/symblog/composer.json&#10;DisconnectedMetadataFactory.php&#9;FILE&#9;file:///home/sgb638/AWD/symblog/vendor/doctrine/doctrine-bundle/Mapping/DisconnectedMetadataFactory.php" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="options.lastSelected" value="org.jetbrains.plugins.sass.extensions.compass.CompassConfigurableProvider$CompassModuleConfigurable" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="copyright" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Blogger/BlogBundle/Resources/views/Album" />
+      <recent name="$PROJECT_DIR$/src/Blogger/BlogBundle" />
+      <recent name="$PROJECT_DIR$/Blogger/BlogBundle" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/Resources/public/img" />
+      <recent name="$PROJECT_DIR$/src/Blogger/BlogBundle/Resources/views/Page" />
+      <recent name="$PROJECT_DIR$/src/Blogger/BlogBundle/Controller" />
+      <recent name="$PROJECT_DIR$/src/Blogger/BlogBundle/Entity" />
+    </key>
+  </component>
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
+      <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://127.0.0.1:8000/api/v1/blogposts" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value=": application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;title&quot;:&quot;hello world&quot;, &quot;blog&quot;:&quot;Created from API&quot;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://127.0.0.1:8000" />
+          <option name="urlPath" value="/api/v1/blogposts" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type:" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;title&quot;:&quot;hello world&quot;, &quot;blog&quot;:&quot;Created from API&quot;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="PUT" />
+          <option name="urlBase" value="http://127.0.0.1:8000" />
+          <option name="urlPath" value="/api/v1/blogposts" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type:" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;title&quot;:&quot;hello world&quot;, &quot;blog&quot;:&quot;Created from API&quot;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://127.0.0.1:8000" />
+          <option name="urlPath" value="/api/v1/blogposts" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type:" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;title&quot;:&quot;hello world&quot;, &quot;blog&quot;:&quot;Created from API&quot;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="HTTP Request.rest-api_3#1">
+    <configuration name="All in rest-api_1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/rest-api_1.http">
+      <method v="2" />
+    </configuration>
+    <configuration name="All in rest-api_3" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/rest-api_3.http">
+      <method v="2" />
+    </configuration>
+    <configuration name="rest-api_3#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/rest-api_3.http" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="HTTP Request.rest-api_3#1" />
+        <item itemvalue="HTTP Request.All in rest-api_3" />
+        <item itemvalue="HTTP Request.All in rest-api_1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0c5c9f97-9fb6-4df4-91e7-dc6e825199d9" name="Default" comment="" />
+      <created>1570097165375</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1570097165375</updated>
+      <workItem from="1570097166534" duration="1753000" />
+      <workItem from="1570701102940" duration="3428000" />
+      <workItem from="1571302155041" duration="6574000" />
+      <workItem from="1571907225875" duration="6357000" />
+      <workItem from="1572516605020" duration="5734000" />
+      <workItem from="1572613159976" duration="547000" />
+      <workItem from="1572613765511" duration="8274000" />
+      <workItem from="1572870519629" duration="1103000" />
+      <workItem from="1573126137145" duration="4702000" />
+      <workItem from="1573217457097" duration="10213000" />
+      <workItem from="1573481095085" duration="2335000" />
+      <workItem from="1574936830534" duration="4891000" />
+      <workItem from="1576239769227" duration="3872000" />
+      <workItem from="1576755205302" duration="11043000" />
+      <workItem from="1576841712738" duration="13122000" />
+      <workItem from="1577103925160" duration="13220000" />
+      <workItem from="1577449369906" duration="8698000" />
+      <workItem from="1577711200738" duration="10017000" />
+      <workItem from="1577807806766" duration="11877000" />
+      <workItem from="1577825458976" duration="182000" />
+      <workItem from="1577908208779" duration="4695000" />
+      <workItem from="1577966526157" duration="14787000" />
+      <workItem from="1578005757881" duration="3685000" />
+      <workItem from="1578056063187" duration="4776000" />
+      <workItem from="1578061067947" duration="2567000" />
+      <workItem from="1578063644393" duration="3694000" />
+      <workItem from="1578067351089" duration="981000" />
+      <workItem from="1578068624408" duration="2377000" />
+      <workItem from="1578080981385" duration="15253000" />
+      <workItem from="1578316903359" duration="48000" />
+      <workItem from="1578317017875" duration="8775000" />
+      <workItem from="1578328939570" duration="3647000" />
+      <workItem from="1578435440439" duration="18581000" />
+      <workItem from="1578574127075" duration="6400000" />
+      <workItem from="1578581656690" duration="360000" />
+      <workItem from="1578606124302" duration="8486000" />
+      <workItem from="1578669133902" duration="2632000" />
+      <workItem from="1578862530870" duration="2411000" />
+      <workItem from="1580902709703" duration="821000" />
+      <workItem from="1581429784691" duration="168000" />
+      <workItem from="1582030892501" duration="5438000" />
+      <workItem from="1582636016479" duration="5179000" />
+      <workItem from="1583240420981" duration="4659000" />
+      <workItem from="1583757348631" duration="4071000" />
+      <workItem from="1583763497763" duration="698000" />
+      <workItem from="1583844024749" duration="8052000" />
+      <workItem from="1584561313020" duration="1666000" />
+      <workItem from="1584632265004" duration="416000" />
+      <workItem from="1584716420948" duration="372000" />
+      <workItem from="1584728355730" duration="207000" />
+      <workItem from="1584738103707" duration="310000" />
+      <workItem from="1584805888813" duration="600000" />
+      <workItem from="1584979496900" duration="4401000" />
+      <workItem from="1584999859619" duration="1014000" />
+      <workItem from="1585001167106" duration="8210000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="486" y="371" key="ComposerInitDialogKey" timestamp="1585146244258">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="486" y="371" key="ComposerInitDialogKey/0.0.1440.900@0.0.1440.900" timestamp="1585146244258" />
+    <state width="978" height="199" key="GridCell.Tab.0.bottom" timestamp="1585144629966">
+      <screen x="0" y="23" width="1440" height="822" />
+    </state>
+    <state width="787" height="199" key="GridCell.Tab.0.bottom/0.23.1440.814@0.23.1440.814" timestamp="1584999684253" />
+    <state width="978" height="199" key="GridCell.Tab.0.bottom/0.23.1440.822@0.23.1440.822" timestamp="1585144629966" />
+    <state width="787" height="199" key="GridCell.Tab.0.bottom/0.23.1440.826@0.23.1440.826" timestamp="1584981463329" />
+    <state width="978" height="199" key="GridCell.Tab.0.center" timestamp="1585144629965">
+      <screen x="0" y="23" width="1440" height="822" />
+    </state>
+    <state width="787" height="199" key="GridCell.Tab.0.center/0.23.1440.814@0.23.1440.814" timestamp="1584999684252" />
+    <state width="978" height="199" key="GridCell.Tab.0.center/0.23.1440.822@0.23.1440.822" timestamp="1585144629965" />
+    <state width="787" height="199" key="GridCell.Tab.0.center/0.23.1440.826@0.23.1440.826" timestamp="1584981463327" />
+    <state width="978" height="199" key="GridCell.Tab.0.left" timestamp="1585144629965">
+      <screen x="0" y="23" width="1440" height="822" />
+    </state>
+    <state width="787" height="199" key="GridCell.Tab.0.left/0.23.1440.814@0.23.1440.814" timestamp="1584999684252" />
+    <state width="978" height="199" key="GridCell.Tab.0.left/0.23.1440.822@0.23.1440.822" timestamp="1585144629965" />
+    <state width="787" height="199" key="GridCell.Tab.0.left/0.23.1440.826@0.23.1440.826" timestamp="1584981463325" />
+    <state width="978" height="199" key="GridCell.Tab.0.right" timestamp="1585144629966">
+      <screen x="0" y="23" width="1440" height="822" />
+    </state>
+    <state width="787" height="199" key="GridCell.Tab.0.right/0.23.1440.814@0.23.1440.814" timestamp="1584999684253" />
+    <state width="978" height="199" key="GridCell.Tab.0.right/0.23.1440.822@0.23.1440.822" timestamp="1585144629966" />
+    <state width="787" height="199" key="GridCell.Tab.0.right/0.23.1440.826@0.23.1440.826" timestamp="1584981463328" />
+    <state x="538" y="173" width="670" height="676" key="search.everywhere.popup" timestamp="1584562159400">
+      <screen x="0" y="23" width="1440" height="826" />
+    </state>
+    <state x="538" y="173" width="670" height="676" key="search.everywhere.popup/0.23.1440.826@0.23.1440.826" timestamp="1584562159400" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/vendor/doctrine/doctrine-bundle/Mapping/DisconnectedMetadataFactory.php</url>
+          <line>42</line>
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

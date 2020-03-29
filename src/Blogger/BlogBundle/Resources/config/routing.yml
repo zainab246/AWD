@@ -1,0 +1,81 @@
+blogger_blog_homepage:
+    path:     /home
+    defaults: { _controller: BloggerBlogBundle:Default:index }
+
+blogger_index:
+    path:     /
+    defaults: { _controller: BloggerBlogBundle:Page:index }
+
+
+blogger_about:
+  path:  /about
+  defaults: { _controller: BloggerBlogBundle:Page:about }
+  requirements:
+      _method:  GET
+
+blogger_artists:
+  path:  /artists/{id}
+  defaults: { _controller: BloggerBlogBundle:Album:artists }
+  requirements:
+    id: \d+
+
+viewalbum:
+  path: /viewalbum
+  defaults: {controller: BloggerBlogBundle:Album:viewalbum}
+  requirements:
+    _method: GET
+
+createalbum:
+  path:  /createalbum
+  defaults: { _controller: BloggerBlogBundle:Album:createalbum}
+  requirements:
+    _method: GET
+
+editalbum:
+  path: /editalbum/{id}
+  defaults: {_controller: BloggerBlogBundle:Album:editalbum}
+  requirements:
+    id: \d+
+
+deletelbum:
+  path: /deletealbum/{id}
+  defaults: {_controller: BloggerBlogBundle:Album:deletealbum}
+  requirements:
+    id: \d+
+
+
+blogger_viewalbum:
+    path:  /viewalbum/{id}
+    defaults: { _controller: BloggerBlogBundle:Page:more }
+    requirements:
+        _method:  POST
+        id: \d+
+
+viewreview:
+    path:     /viewreview/{id}
+    defaults: { _controller: BloggerBlogBundle:Review:view }
+    requirements:
+      _method:  POST
+      id: \d+
+
+createreview:
+    path:     /createreview/{id}
+    defaults: { _controller: BloggerBlogBundle:Review:create }
+    requirements:
+      id: \d+
+
+
+
+editreview:
+    path:     /editreview/{id}
+    defaults: { _controller: BloggerBlogBundle:Review:edit }
+    requirements:
+      id: \d+
+
+
+deletereview:
+    path:     /deletereview/{id}
+    defaults: { _controller: BloggerBlogBundle:Review:delete }
+    requirements:
+      id: \d+
+

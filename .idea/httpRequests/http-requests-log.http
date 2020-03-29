@@ -1,0 +1,144 @@
+POST http://127.0.0.1:8000/api/v1/blogposts
+Accept: */*
+Content-Type: : application/json
+
+{"title":"hello world", "blog":"Created from API"}
+
+<> 2020-03-25T015620.404.html
+
+###
+
+POST http://127.0.0.1:8000/api/v1/blogposts
+Accept: */*
+Content-Type: : application/json
+
+{"title":"hello world", "blog":"Created from API"}
+
+<> 2020-03-25T015611.404.html
+
+###
+
+POST http://127.0.0.1:8000/api/v1/blogposts
+Accept: */*
+Content-Type: : application/json
+
+{"title":"hello world", "blog":"Created from API"}
+
+<> 2020-03-25T015544.404.html
+
+###
+
+POST http://127.0.0.1:8000/api/v1/blogposts
+Accept: */*
+Content-Type: : application/json
+
+{"title":"hello world", "blog":"Created from API"}
+
+###
+
+POST http://127.0.0.1:8000/api/v1/blogposts
+Accept: */*
+Content-Type: : application/json
+
+{"title":"hello world", "blog":"Created from API"}
+
+###
+
+POST http://127.0.0.1:8000/api/v1/blogposts
+Accept: */*
+Content-Type:: application/json
+
+{"title":"hello world", "blog":"Created from API"}
+
+###
+
+PUT http://127.0.0.1:8000/api/v1/blogposts
+Accept: */*
+Content-Type:: application/json
+
+{"title":"hello world", "blog":"Created from API"}
+
+<> 2020-03-10T015221.405.html
+
+###
+
+POST http://127.0.0.1:8000/api/v1/blogposts
+Accept: */*
+Content-Type:: application/json
+
+{"title":"hello world", "blog":"Created from API"}
+
+###
+
+POST http://127.0.0.1:8000/api/v1/blogposts
+Accept: */*
+Cache-Control: no-cache
+Content-Type:: application/json
+
+{"title":"hello world", "blog":"Created from API"}
+
+###
+
+POST http://127.0.0.1:8000/api/v1/blogposts
+Accept: */*
+Cache-Control: no-cache
+Content-Type:: application/json
+
+{"title":"hello world", "blog":"Created from API"}
+
+###
+
+POST http://127.0.0.1:8000/api/v1/blogposts
+Accept: */*
+Cache-Control: no-cache
+Content-Type:: application/json
+
+{"title":"hello world", "blog":"Created from API"}
+
+###
+
+POST http://127.0.0.1:8000/api/v1/blogposts
+Accept: */*
+Cache-Control: no-cache
+Content-Type:: application/json
+
+{"title":"hello world", "blog":"Created from API"}
+
+###
+
+POST http://127.0.0.1:8000/api/v1/blogposts
+Accept: */*
+Cache-Control: no-cache
+Content-Type:: application/json
+
+{"title":"hello world", "blog":"Created from API"}
+
+###
+
+POST http://127.0.0.1:8000/api/v1/blogposts
+Accept: */*
+Cache-Control: no-cache
+Content-Type:: application/json
+
+{"title":"hello world", "blog":"Created from API"}
+
+###
+
+POST http://127.0.0.1:8000/api/v1/blogposts
+Accept: */*
+Cache-Control: no-cache
+Content-Type:: application/json
+
+{"title":"hello world", "blog":"Created from API"}
+
+###
+
+POST http://127.0.0.1:8000/api/v1/blogposts
+Accept: */*
+Cache-Control: no-cache
+Content-Type:: application/json
+
+{"title":"hello world", "blog":"Created from API"}
+
+###
+
